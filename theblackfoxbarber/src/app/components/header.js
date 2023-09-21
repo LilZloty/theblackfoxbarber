@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image'
-import AboutPage from '../pages/about.js';
+import About from '../pages/about';
 
 const Header = () => {
   return (
@@ -16,7 +16,7 @@ const Header = () => {
           <Link href="/">
             Home
           </Link>
-          <Link href="/pages/about">
+          <Link href="../pages/about">
             About
           </Link>
           <Link href="/services">
