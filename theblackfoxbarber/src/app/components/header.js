@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image'
-import About from '../pages/about';
 
 const Header = () => {
   return (
@@ -16,7 +15,7 @@ const Header = () => {
           <Link href="/">
             Home
           </Link>
-          <Link href="/about">
+          <Link href="/pages">
             About
           </Link>
           <Link href="/services">
