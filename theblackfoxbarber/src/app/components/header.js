@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className="bg-transparent text-white p-4">
+    <header className="bg-transparent absolute text-white p-4 w-full">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="logo text-2xl font-bold"> <Image
+        <div className=""> <Image
             src="/images/theblackfoxbarberlogo.png"
             alt="The black fox barber logo"
             width={180}
