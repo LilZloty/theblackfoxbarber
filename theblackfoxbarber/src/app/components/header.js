@@ -10,6 +10,7 @@ const Header = () => {
             alt="The black fox barber logo"
             width={180}
             height={180}
+            style={{ width: '80%', height: 'auto' }}
           /></div>
         <nav className="space-x-4">
           <Link href="/">
