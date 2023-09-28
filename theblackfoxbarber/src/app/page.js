@@ -21,14 +21,13 @@ export default function Home() {
                   <span>Contact me on Whatsapp</span>
                 </Link></div>
 
-                <div className="pt-20 flex items-center justify-center absolute inset-0">
+                
                 <div class="grid grid-rows-1 grid-flow-col gap-3">
                   <div>01</div>
                   <div>01</div>
                   <div>01</div>
                 </div>
                 
-                </div>
                   </div>
                   
                   </main>
